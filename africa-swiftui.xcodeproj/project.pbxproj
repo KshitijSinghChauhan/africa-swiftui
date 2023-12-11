@@ -39,6 +39,7 @@
 		10876A422B27294000668015 /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10876A412B27294000668015 /* InsetGalleryView.swift */; };
 		10876A442B2733ED00668015 /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10876A432B2733ED00668015 /* InsetFactView.swift */; };
 		10876A462B27384700668015 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10876A452B27384700668015 /* InsetMapView.swift */; };
+		10876A482B273CDB00668015 /* ExternalWebLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10876A472B273CDB00668015 /* ExternalWebLinkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		10876A412B27294000668015 /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
 		10876A432B2733ED00668015 /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		10876A452B27384700668015 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
+		10876A472B273CDB00668015 /* ExternalWebLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLinkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 				10876A412B27294000668015 /* InsetGalleryView.swift */,
 				10876A432B2733ED00668015 /* InsetFactView.swift */,
 				10876A452B27384700668015 /* InsetMapView.swift */,
+				10876A472B273CDB00668015 /* ExternalWebLinkView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				10876A292B26C91D00668015 /* MapView.swift in Sources */,
 				10876A462B27384700668015 /* InsetMapView.swift in Sources */,
 				108769F92B26BF5F00668015 /* africa_swiftuiApp.swift in Sources */,
+				10876A482B273CDB00668015 /* ExternalWebLinkView.swift in Sources */,
 				10876A272B26C90900668015 /* VideoListView.swift in Sources */,
 				10876A2B2B26C93500668015 /* GalleryView.swift in Sources */,
 				10876A422B27294000668015 /* InsetGalleryView.swift in Sources */,
