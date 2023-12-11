@@ -47,6 +47,7 @@
 		10876A1D2B26C65400668015 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
 		10876A1E2B26C65400668015 /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
 		10876A1F2B26C65400668015 /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		10876A242B26C7C600668015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +80,10 @@
 		108769F72B26BF5F00668015 /* africa-swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				10876A242B26C7C600668015 /* Info.plist */,
 				10876A1B2B26C64500668015 /* Data */,
 				10876A062B26C5FE00668015 /* Video */,
-				108769F82B26BF5F00668015 /* africa_swiftuiApp.swift */,
-				108769FA2B26BF5F00668015 /* ContentView.swift */,
+				10876A252B26C87E00668015 /* App */,
 				108769FC2B26BF6000668015 /* Assets.xcassets */,
 				108769FE2B26BF6000668015 /* Preview Content */,
 			);
@@ -123,6 +124,15 @@
 				10876A1D2B26C65400668015 /* videos.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		10876A252B26C87E00668015 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				108769F82B26BF5F00668015 /* africa_swiftuiApp.swift */,
+				108769FA2B26BF5F00668015 /* ContentView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,11 +352,12 @@
 				DEVELOPMENT_TEAM = 84UUUS3LYJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "africa-swiftui/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -371,11 +382,12 @@
 				DEVELOPMENT_TEAM = 84UUUS3LYJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "africa-swiftui/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
