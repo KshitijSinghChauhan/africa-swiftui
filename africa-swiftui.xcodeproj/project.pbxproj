@@ -25,6 +25,10 @@
 		10876A212B26C65400668015 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 10876A1D2B26C65400668015 /* videos.json */; };
 		10876A222B26C65400668015 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 10876A1E2B26C65400668015 /* animals.json */; };
 		10876A232B26C65400668015 /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 10876A1F2B26C65400668015 /* covers.json */; };
+		10876A272B26C90900668015 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10876A262B26C90900668015 /* VideoListView.swift */; };
+		10876A292B26C91D00668015 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10876A282B26C91D00668015 /* MapView.swift */; };
+		10876A2B2B26C93500668015 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10876A2A2B26C93500668015 /* GalleryView.swift */; };
+		10876A2D2B26C94600668015 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10876A2C2B26C94600668015 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		10876A1E2B26C65400668015 /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
 		10876A1F2B26C65400668015 /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
 		10876A242B26C7C600668015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		10876A262B26C90900668015 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		10876A282B26C91D00668015 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		10876A2A2B26C93500668015 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		10876A2C2B26C94600668015 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +139,10 @@
 			children = (
 				108769F82B26BF5F00668015 /* africa_swiftuiApp.swift */,
 				108769FA2B26BF5F00668015 /* ContentView.swift */,
+				10876A262B26C90900668015 /* VideoListView.swift */,
+				10876A282B26C91D00668015 /* MapView.swift */,
+				10876A2A2B26C93500668015 /* GalleryView.swift */,
+				10876A2C2B26C94600668015 /* MainView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -220,7 +232,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				108769FB2B26BF5F00668015 /* ContentView.swift in Sources */,
+				10876A2D2B26C94600668015 /* MainView.swift in Sources */,
+				10876A292B26C91D00668015 /* MapView.swift in Sources */,
 				108769F92B26BF5F00668015 /* africa_swiftuiApp.swift in Sources */,
+				10876A272B26C90900668015 /* VideoListView.swift in Sources */,
+				10876A2B2B26C93500668015 /* GalleryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +369,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "africa-swiftui/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Africa;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -383,6 +400,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "africa-swiftui/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Africa;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
