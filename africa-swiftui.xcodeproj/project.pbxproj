@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10500ECE2B2791340044299D /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10500ECD2B2791340044299D /* VideoPlayerView.swift */; };
+		10500ED12B2792170044299D /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10500ED02B2792170044299D /* VideoPlayerHelper.swift */; };
 		108769F92B26BF5F00668015 /* africa_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108769F82B26BF5F00668015 /* africa_swiftuiApp.swift */; };
 		108769FB2B26BF5F00668015 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108769FA2B26BF5F00668015 /* ContentView.swift */; };
 		108769FD2B26BF6000668015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108769FC2B26BF6000668015 /* Assets.xcassets */; };
@@ -45,6 +47,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10500ECD2B2791340044299D /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		10500ED02B2792170044299D /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 		108769F52B26BF5F00668015 /* africa-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "africa-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		108769F82B26BF5F00668015 /* africa_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = africa_swiftuiApp.swift; sourceTree = "<group>"; };
 		108769FA2B26BF5F00668015 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10500ECF2B2791FD0044299D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				10500ED02B2792170044299D /* VideoPlayerHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		108769EC2B26BF5F00668015 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +126,7 @@
 		108769F72B26BF5F00668015 /* africa-swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				10500ECF2B2791FD0044299D /* Helper */,
 				10876A342B26F57A00668015 /* Extension */,
 				10876A312B26EA6800668015 /* Model */,
 				10876A2E2B26DD2500668015 /* View */,
@@ -188,6 +201,7 @@
 				10876A452B27384700668015 /* InsetMapView.swift */,
 				10876A472B273CDB00668015 /* ExternalWebLinkView.swift */,
 				10876A4B2B27432000668015 /* VideoListItemView.swift */,
+				10500ECD2B2791340044299D /* VideoPlayerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -304,6 +318,7 @@
 				10876A3C2B271C0300668015 /* AnimalModel.swift in Sources */,
 				10876A292B26C91D00668015 /* MapView.swift in Sources */,
 				10876A462B27384700668015 /* InsetMapView.swift in Sources */,
+				10500ED12B2792170044299D /* VideoPlayerHelper.swift in Sources */,
 				108769F92B26BF5F00668015 /* africa_swiftuiApp.swift in Sources */,
 				10876A482B273CDB00668015 /* ExternalWebLinkView.swift in Sources */,
 				10876A272B26C90900668015 /* VideoListView.swift in Sources */,
@@ -313,6 +328,7 @@
 				10876A4C2B27432000668015 /* VideoListItemView.swift in Sources */,
 				10876A362B26F66200668015 /* CodableBundleExtension.swift in Sources */,
 				10876A402B27282400668015 /* HeadingView.swift in Sources */,
+				10500ECE2B2791340044299D /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
