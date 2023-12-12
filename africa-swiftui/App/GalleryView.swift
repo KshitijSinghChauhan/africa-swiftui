@@ -21,7 +21,15 @@ struct GalleryView: View {
     // ]
     
     // EFFICIENT GRID DEFINITION
-    let gridLayout: [GridItem] = Array(repeating: GridItem(.flexible()), count: 3)
+    // let gridLayout: [GridItem] = Array(repeating: GridItem(.flexible()), count: 3)
+    
+    // DYNAMIC GRID LAYOUT
+    @State private var gridLayout: [GridItem] = [GridItem(.flexible())]
+    @State private var gridColumn: Double = 3.0
+    
+    func gridSwitch() {
+        gridLayout = Array(repeating: .init(.flexible()), count: Int(gridColumn))
+    }
     
     // MARK: - BODY
     var body: some View {
@@ -36,6 +44,13 @@ struct GalleryView: View {
                         Circle().stroke(Color.white, lineWidth: 8)
                     )
                 
+                // MARK: SLIDER
+                Slider(value: $gridColumn, in: 2...5)
+                    .padding(.horizontal)
+                    .onChange(of: gridColumn) { newValue in
+                        gridSwitch()
+                    }
+                
                 // MARK: GRID
                 LazyVGrid(columns: gridLayout, alignment: .center, spacing: 10) {
                     ForEach(animals) { item in
@@ -49,6 +64,9 @@ struct GalleryView: View {
                             }
                     } //: LOOP
                 } //: GRID
+                .onAppear(perform: {
+                    gridSwitch()
+                })
             } //: VSTACK
             .padding(.horizontal, 10)
             .padding(.vertical, 50)
